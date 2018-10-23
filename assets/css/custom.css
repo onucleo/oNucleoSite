@@ -1,0 +1,18 @@
+#header{
+    background: #2F4F4F;
+}
+
+@media screen and (max-width: 1024px){}
+#titleBar .toggle:before {
+    background: #2F4F4F;
+}
+
+header.major h2 {
+    color: #2F4F4F;
+    font-size: 3.5em;
+}
+
+input[type="submit"].primary, input[type="reset"].primary, input[type="button"].primary, .button.primary {
+    background-color: #2F4F4F;
+    color: #ffffff !important;
+}
