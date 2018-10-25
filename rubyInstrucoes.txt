@@ -1,3 +1,0 @@
-1- Descompactar o pacote (tar xf ruby-2_3_3.tar.gz)
-2- Entrar na pasta ruby-2_3_3 (cd ruby-2_3_3)
-3- Execute install.sh (bash ./install.sh)
