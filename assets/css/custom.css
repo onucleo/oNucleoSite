@@ -16,3 +16,7 @@ input[type="submit"].primary, input[type="reset"].primary, input[type="button"].
     background-color: #2F4F4F;
     color: #ffffff !important;
 }
+
+.oculta {
+    display:none;
+}
