@@ -10,7 +10,6 @@
 	    <title>O Núcleo</title>
 		<link rel="icon" href="images/logo.png">
 
-
 		<!-- Font Awesome -->
 	    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
 	    <!-- Bootstrap core CSS -->
@@ -24,6 +23,7 @@
 		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
 		<link rel="stylesheet" href="assets/css/main.css" />
 		<link rel="stylesheet" href="assets/css/custom.css" />
+		<link rel="stylesheet" href="assets/css/style.css"/>
 	</head>
 
 	<body class="is-preload">
@@ -59,9 +59,12 @@
 
 			<!-- Main -->
 			<div id="main">
-				<!-- Banner -->
-				<div class="image main" data-position="center">
-					<img src="images/bannerSite.jpg" alt="" />
+
+				<!-- particles.js container -->
+				<div class="image main" id="particles-js" style="background-color: #2F4F4F;">
+  					<div class="superior">
+						<img src="images/logoFim.png" alt=""  style="width: 100%"/>
+					</div>
 				</div>
 
 				<!-- One -->
@@ -381,6 +384,14 @@
 		<script src="assets/js/util.js"></script>
 		<script src="assets/js/main.js"></script>
 		<script src="assets/js/custom.js"></script>
+
+		<!-- Particulas -->
+		<script src="https://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
+	    <script>
+	      particlesJS.load('particles-js', 'assets/js/particles.json', function(){
+	        console.log('particles.json loaded...');
+	      });
+	    </script>
 
 	</body>
 </html>
